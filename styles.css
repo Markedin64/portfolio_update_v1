@@ -76,18 +76,19 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;  
-  border: 4px solid rgb(249, 192, 255);
+  border: 2px solid silver;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.25) rotate(360deg);
+  border: 4px solid #ff99ff;
 }
 .tag {
   background-color: #efefef;
   color: blue;
   padding: 10px;
   border-radius: 15px;
-  border-bottom: 4px solid rgb(249, 192, 255);
+  border-bottom: 4px solid silver;
   display: table;
   margin: 10px auto;
 } 
