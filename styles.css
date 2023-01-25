@@ -24,7 +24,7 @@ a {
   color: silver;
 }
 a:hover {
-  color: #6633ff;
+  color: white;
 }
 
 /* Section Styles */
@@ -63,7 +63,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -75,8 +75,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid rgb(249, 192, 255);
+  border-radius: 50%;  
+  border: 4px solid rgb(249, 192, 255);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -87,10 +87,13 @@ header .profile-image:hover {
   color: blue;
   padding: 10px;
   border-radius: 15px;
-  border: 2px solid rgb(249, 192, 255);
+  border-bottom: 4px solid rgb(249, 192, 255);
   display: table;
   margin: 10px auto;
 } 
+.tag:hover {
+  border-color: #ff99ff;
+}
 .location {
   background-color: #efefef;
   color: blue;
